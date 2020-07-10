@@ -1,5 +1,599 @@
 [
     {
+        "sha": "50d20dc055decf43f956601d71572f825c2b2eca",
+        "description": "ac/llvm: export ac_init_llvm_once in targets",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8da237428c19ff185d8be7c2909a2d74874b646b",
+        "description": "bin/symbols-check.py: add --ignore-symbol argument",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "51bdaf0b601522dfc599bd352806e66ef56876a3",
+        "description": "st/mesa: set compressed_data to NULL when freed",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "b6db703e0f007fbcf4389ec607ae4c3e8fc9ee0d"
+    },
+    {
+        "sha": "ca51f75f9d341a462b293c367a51584a7a43a1e8",
+        "description": "aco: fix more validation errors from vgpr spill/restore code",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1af1eb9f7bd61287a74133860606fa146a0d43ac",
+        "description": "gitlab-ci: Enable -Werror in `meson-gallium` job",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "81317e2c144e792a5cecaa6b72a7ab7e315151b8",
+        "description": "lima: add missing break",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "38218ab7e20e7f73cce61b6033cce59fa81efbca",
+        "description": "lima: add missing fallthrough comments",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "745aeba623663579d3ba1a394a02baea0689e657",
+        "description": "etnaviv: add missing fallthrough comments",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "44b1f9c6ffe361f9effacd4548e0aacce8c85ecd",
+        "description": "iris: Add missing break in switch in modifier_is_supported",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "2305ab693820f6f08b054cb8b33536e4b1178e45"
+    },
+    {
+        "sha": "ffb6eb6d5df7a227bedae31376f826099b4c00b9",
+        "description": "freedreno/ir3: run nir_opt_loop_unroll in optimization loop",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9c23afebbe42ccef94bf0a5a9ec305de850fb098",
+        "description": "freedreno/ir3: fix setup_input for sparse vertex inputs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8dfa072ed82df2224cbe9170728665a9b507a859",
+        "description": "intel/compiler/fs: Still attempt simd32 when INTEL_DEBUG=no16 is used",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1a4a2f563b04e93cca68d0b7013e52d949b1613b",
+        "description": "intel/compiler/cs: Allow simd32 in some more cases with no8 and/or no16",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9418c8ec8dddd73a7fb0a4a1180118d49a8e5ebe",
+        "description": "gitlab-ci: Don't rebuild kernels and rootfs if they have been already built in mainline",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1a3eb43d5b880db70b53972785f979fcdbc747ed",
+        "description": "gitlab-ci: do not run full CI on scheduled pipelines",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1639d3c2cdffdda0531a3e4bde653aaab076f11c",
+        "description": "gitlab-ci: update ci-fairy minio to latest upstream",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b3fdd773854211607a6c52e5c43fe6557afb5f9c",
+        "description": "panfrost: Report blend shader work count",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5247d6730223a400aed9068db8a82c134c655005",
+        "description": "panfrost: Move panfrost_translate_texture_type",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "816af26f027ebe325bcaaa70ad1eb9575cddea9f",
+        "description": "panfrost: Handle PIPE_FORMAT_S8_UINT",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4c891488342fcfdcb80c88be14732e6190996047",
+        "description": "panfrost: Handle PIPE_FORMAT_X24S8_UINT",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1fdeef5e4a11f0590f443b805b53be842f745018",
+        "description": "panfrost: Move scoreboarding routines to common",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7ec6ee405789c9835ef50407ab8c948e513d4a9d",
+        "description": "panfrost: Drop batch from scoreboard routines",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "fa722887da18a4b498df29532a77748195ef53f4",
+        "description": "panfrost: Pass polygon_list to tiler init function",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "31197c2c1bc4c906eb321484963c8f6143acae9f",
+        "description": "panfrost: Factor out scoreboarding state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c8d848b2782b99eb617cb83958a3d977c406e8ff",
+        "description": "panfrost: Move pool routines to common code",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1d88f078201a9f48322c4447c597f311aa980057",
+        "description": "panfrost: Drop Gallium-local pan_bo_create wrapper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ed1910dc68e86dda8042c2c3ecb24695fe88f398",
+        "description": "panfrost: Move debug flags into the device",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8958fbd29e2b4f8cce76158ce573f6d3455fa9a6",
+        "description": "panfrost: Expose pool-based allocation API",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "34e0954f1d2566f978ce7403b554dea3fcd4df45",
+        "description": "panfrost: Track the device through the pool",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6ef7c05746f5f0c5053b6e228096a776377adecf",
+        "description": "panfrost: Allocate pool BOs against the pool",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8882d6aad63813a901df9ad909002685830311b7",
+        "description": "panfrost: Introduce pan_pool struct",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5d1bff290afef768248925e9401bea75a9739791",
+        "description": "docs/features: Track Panfrost",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9497a1fbe72858c0df6c3d83dd676dfa25376930",
+        "description": "docs: fix a bunch of typos",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "49d35f3d882bd0f4418a1ce056344b8f06bd75dd",
+        "description": "glsl: declare gl_Layer/gl_ViewportIndex/gl_ViewportMask as vs builtins",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "26b75daef57c0ab7bde8dabf2a169bd755df51c3",
+        "description": "turnip: fix active_desc_sets not being set for compute pipeline",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ee99a7a1cfb91a47db7285db66fef5d9de8eafc5",
+        "description": "docs: add some missing stuff to sourcetree.rst",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "27b09d293ba144eb4b9d633a48fb3d31a133fc94",
+        "description": "docs: update calendar and link releases notes for 20.1.3",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6b4aee78aed3720d457326c56a385668c71b3168",
+        "description": "docs: add release notes for 20.1.3",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1e3aeda5281e5d246e37a035d91f08af4bb0e5e3",
+        "description": "glsl: only allow 32 bits atomic operations on images",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "fc0a2e5d017dcb9e7f236d69745dff89e116b92e"
+    },
+    {
+        "sha": "233af4a412db87a9b8430104a58c1b6adb704b1c",
+        "description": "glsl: don't expose imageAtomicIncWrap for signed image",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "fc0a2e5d017dcb9e7f236d69745dff89e116b92e"
+    },
+    {
+        "sha": "438392243fb284884e8499758064256fb3dad48d",
+        "description": "ac/llvm: remove the -1 hack from ac_atomic_inc_wrap",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0c8873d85db371dea9ec34fefc6fec531aa404b9",
+        "description": "glsl: reject size1x8 for image variable with floating-point data types",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "8d07d66180b1523d7e70681ca142955f896ebda9"
+    },
+    {
+        "sha": "315ac9410717b8a25ff501a724370272c6d54d90",
+        "description": "gitlab-ci: Remove left-behind rules:",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "40526451ca5da669f6d8d11195538e4580d13531",
+        "description": "radv: compute prim_vertex_count at draw time",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "972081c6887442746255f5ddd0300317e59aac04",
+        "description": "radv: adjust IA_MULTI_VGT_PARAM.PARTIAL_VS_WAVE at draw time",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5f1b0f4b48af90fbfc625f1838e821f434891f26",
+        "description": "radv: adjust IA_MULTI_VGT_PARAM.WD_SWITCH_ON_EOP at draw time",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9f561feecc79f5ffbeccb5c8fa4ad72de6eaefd9",
+        "description": "radv: store the primitive topology hardware value in the pipeline",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6f734324a5e213febb79de13550a21588c31bc7f",
+        "description": "radv: implement missing VK_ACCESS_MEMORY_{READ,WRITE}_BIT",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "02a57896f66186eb31cd1da476e14e1910bf12b3",
+        "description": "nv50/ir: fix memset on non trivial types warning",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "cd67e2c280ac0878b2f916005f4ca32c874cd2fe",
+        "description": "nine: remove unused var",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8f6d66d5094ee45f8b1ff6487a575e6c7fe90220",
+        "description": "zink: fix missing fallthrough comment",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "20dff7dc6b0456bfca087c1f0a7ebe335e5475d9",
+        "description": "v3d: remove redefine of VG(x)",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "03a5b3f6d5a89a1de3352283b9dc1f45ab5a25d7",
+        "description": "freedreno: fix missing fallthrough comments",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "40e00c800cf863ddf75b65b249968031ecbf52d6",
+        "description": "amd/llvm: Mark pointer function arguments as 32-byte aligned.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d2bd77eae4800e739ad360d4e06a7243d2335f84",
+        "description": "glsl: don't validate array types in ir_dereference_variable",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "8d62969cfe81db92cc6073003f231dcca845bf9d"
+    },
+    {
+        "sha": "9ad19fff3eb1873ad8283a42a39f2109ea5967c3",
+        "description": "radv: use bitshifts for debug enum values",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "979e7e3680792dc23d434295edd10b161af8aee3",
+        "description": "freedreno/layout: layout simplifications and pitch from level 0 pitch",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4b290b759a8c85c7d493f1ddd7d38b322bbe1276",
+        "description": "freedreno: add a fd_resource_pitch helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "344e764b01202d9894c793d393d060dc5530145b",
+        "description": "freedreno/a2xx: fix compressed textures",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "5a8718f01b3976e1bc82362a907befef68a7f525"
+    },
+    {
+        "sha": "3021cb3215822aafb4021cf0e44b75b98a76ca86",
+        "description": "docs: Document how to interact with docker containers.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "21e6d67a2e2197b8b55e3e641037290a0a850c9b",
+        "description": "docs: Relax the expectations of HW CI farms.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "27c9272c3d72894ac7675cb542fdaccf1b89fd41",
+        "description": "docs: Move the gitlab-ci docs to RST.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a2ca7e09fe66d8e5a13b46952a265b56f6695206",
+        "description": "docs: Move the conformance and the CI docs to a top level Testing section.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9af82b50264698e90d8914e9499d6301f875483a",
+        "description": "docs: Move the current CI .rst doc to docs/ci/ and link to it from .gitlab-ci.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "29cba3b6954dc26ada9b5797be289f9617728974",
+        "description": "nir/validate: Don't abort() until after the shader has printed",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "55cf97f56edbfbaaff646131fc9e1299b38af355",
+        "description": "Revert \"ac/surface: require that gfx8 doesn't have DCC in order to be displayable\"",
+        "nominated": false,
+        "nomination_type": 2,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "7406ea37e6b666d474ab62982ca333d518c84231"
+    },
+    {
         "sha": "0ca7bd73c6f1f59dcb41ead7a3923c55040377d9",
         "description": "zink: translate gl_FragColor to gl_FragData before ntv to fix multi-rt output",
         "nominated": false,
