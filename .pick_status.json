@@ -1,5 +1,194 @@
 [
     {
+        "sha": "b8df1c43d24a73740ddd8702d480eded11287b3f",
+        "description": "nir: allow nir_lower_clip_halfz to run in geometry shaders",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3fe87a583692c644a448e827d4e4fdcf881b4257",
+        "description": "nir: allow nir_lower_point_size_mov to run in geometry shader",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "36abb0c6918c89bdd5a155df21dbd7b4ee0a9dde",
+        "description": "intel/compiler: don't propagate cmp to add if add is saturated",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "19ca34ed270e20ed9ba02e3ea780f057eca2bae1",
+        "description": "aco: don't create phis with undef operands in the boolean phi pass",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9a089baff1af757b1c0f033f4bb16cb2c8864271",
+        "description": "aco: optimize boolean phis with uniform selections",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f622e80494f209a0c51cc804bb900eefe8f2fdaa",
+        "description": "aco: create better code for boolean phis with constant operands",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "47b0653d5dc7e7e6bed9263254e7436ca8b830cd",
+        "description": "aco: rework boolean phi pass",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "05e23cb23dde76afeaa77746eea37236086668e5",
+        "description": "llvmpipe/cs: fix image/sampler binding for compute",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "54232bee06a3742e42754b223712de17a3f7ac59",
+        "description": "llvmpipe: flush resources on sampler view binding",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7582f4a49cdb87b1657e44ba38104445bc28bd77",
+        "description": "llvmpipe: denote NEW fs when images change.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "033e933348cbed141401b1025d658f5d9b1a8a53",
+        "description": "nv50/ir/tgsi: move call to tgsi_scan_shader inside Source constructor",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "66ed9792edb702c18eeb4d23a7b792e32b3188d4"
+    },
+    {
+        "sha": "c905e485936432e2db6d16403076761dd5d25d41",
+        "description": "bin/gen_release_notes.py: drop new_features.txt when we release XX.Y.0",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7f61f4180b645527d4c82404b18712946e77e551",
+        "description": "introduce `commit_in_branch.py` script to help devs figure this out",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "40a6de176d0f4ffa9fcad8f2c8ab30a7e8cfe807",
+        "description": "anv: fix uninitialized variable access",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e3ddba73241901a75844b39e6e3b12eaf15f9b26",
+        "description": "iris: fix fallback to swrast driver",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "f402b7c57641dd2ab4d39032574294c03d75b595"
+    },
+    {
+        "sha": "e00adef34a5ce485e2c9216a268ca05e89a5fc98",
+        "description": "egl: automatically compile the `drm` platform when available",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "60ad006b27e1e577e29636e56178523893051968",
+        "description": "meson: move xlib-lease block further down",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "448eb19158f483d807ef5bff5242be3df82c7787",
+        "description": "vulkan: automatically compile the `display` platform when available",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a38e21d6683aeecb51aea4f933a77c6e7f1a6179",
+        "description": "egl: always compile surfaceless",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e66e0c0c2d017722f6ffba114a140fec683652e0",
+        "description": "u_prim_restart: handle user buffers in util_translate_prim_restart_ib()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "66ed9792edb702c18eeb4d23a7b792e32b3188d4",
+        "description": "nv50: Clear nv50_ir_prog_info of dead and codegen specific variables",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "50d20dc055decf43f956601d71572f825c2b2eca",
         "description": "ac/llvm: export ac_init_llvm_once in targets",
         "nominated": false,
