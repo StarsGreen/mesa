@@ -1,5 +1,653 @@
 [
     {
+        "sha": "d4f4546ada7417b0164ceb4f93a652a41438b15b",
+        "description": "zink: use type of src[0] for ntv store and load ops",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "359c9384837f332edb3140f43675c761341b8bcd",
+        "description": "zink: add lengthy comment and remove assert from discard_if ntv pass",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "97ec109d8fa07c02531c9f54b7edf7085d6130bf",
+        "description": "zink: handle ntv case of nested loop instructions more permissively",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e40a77ea5d0ba77f44e9266b43c069d921aec30d",
+        "description": "zink: use right vulkan type for GL_PRIMITIVES_GENERATED queries",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b9b943793b017e3da8239117e70d020c17480d3f",
+        "description": "zink: only reset query pool on query end if current batch isn't in renderpass",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2c02ca21842c71162dbcce98d4b7357db5489348",
+        "description": "zink: properly handle query pool overflows",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "510631ad76b8e10ccbfed2968cbe8622e2203d98",
+        "description": "zink: only stall during query destroy for xfb queries",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "27defcd20ed895434b6a7d7361fa70c4c5105bd8",
+        "description": "zink: use #define for number of queries per-pool",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3eea7fc88bb046f9a74454f184cc341e770c63f9",
+        "description": "zink: rework query handling",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2096903a05b835d5cd5982b741ba0d28b6ede632",
+        "description": "panfrost: Fix outmods on int to float conversions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "be8a8edb1e40d9a716e56961142edd4d29e2a4a3",
+        "description": "docs/submittingpatches: add more than one `Cc: mesa-stable` example to the examples list",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "da23a31726f4f0486319e900207c31f2815e9119",
+        "description": "docs/features: Update ASTC entries for Panfrost",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f34b8d3609d13a492e432db325451cb04b143b47",
+        "description": "panfrost: Map PIPE_{DXT, RGTC, BPTC} to MALI_BCn",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6da405ca7773745cdb383b5bb43a6a1575eea4f3",
+        "description": "panfrost: Filter compressed texture formats",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "407a052ced43e4754fc46c20eb8e55feaaae105a",
+        "description": "panfrost: Pipe in compressed texture feature mask",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d5a9cd1b7dd972e84f02396cbaa067ea59c2ff39",
+        "description": "panfrost: Add format codes for new compressed textures",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "64608b4bcf89ee84c37cd03290c4c276c6016b75",
+        "description": "panfrost: Compact unused BO flag bits",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c6ebff3ecdde46ef7925326522395b4a50dd65a3",
+        "description": "panfrost: Remove panfrost_bo_access type",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "62ec4e02f6b7d7bc12360cb4d4b1d987f6e0cd1c",
+        "description": "panfrost: Remove PAN_BO_DONT_REUSE",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d6e3808e7e75e5eebbdc19cae0914185a00531cf",
+        "description": "panfrost: Remove PAN_BO_COHERENT_LOCAL",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "baa1a8fbbad0f1b3d9cfd51905993f74955de058",
+        "description": "panfrost: Merge PAN_BO_IMPORTED/PAN_BO_EXPORTED",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0aa6de967b99e5f5b65732b1b656ac06fd9f5122",
+        "description": "panfrost: Index BOs from the BO map sparse array",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "169dbb5b08a1c5367dd7a1714cd547a7f3ecac3d",
+        "description": "panfrost: Add a sparse array to map GEM handles to BOs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "37d89e0f93601e520edcdc41dc68197dff736c1e",
+        "description": "panfrost: Fix write to free'd memory",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "82f18b713aceecf5ebf73d68e0cdd61be8aa2c59"
+    },
+    {
+        "sha": "20dd37024b045881d98a55b1927b0dab29d1edd3",
+        "description": "panfrost: Fix fence leak",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "2dad9fde505c7d8e97f57f4a5a3f495f902f94f2"
+    },
+    {
+        "sha": "15a17fddad6123efc4da1012f8bc9fe3acf87ac4",
+        "description": "aco: add 32-bit integer addition to can_swap_operands",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ec9920e72b0161642eccb0a2506eccc5b2c99a92",
+        "description": "radv: use lower_shuffle_to_swizzle_amd",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7ba645d5cb3974d90db0dc7f78d935c7be29448d",
+        "description": "nir/lower_subgroups: add lower_shuffle_to_swizzle_amd",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9c317cb2787db09be103dde5eee86b4709ebe6ba",
+        "description": "nir/lower_subgroups: pass options struct to lower_shuffle",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a6a731bea5e835a49c0ff12b7d729ba761d3296f",
+        "description": "aco: implement <32-bit masked_swizzle_amd",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d377fbf95d038583c24df95395600aec85e20318",
+        "description": "aco: optimize some masked swizzles to DPP",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "09f48de582edc5d05c0ad31317f4d38df6b66f6d",
+        "description": "aco: read 0 from inactive lanes when using dpp",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c417172751c00728da6aa8002dee4b1fe61994ba",
+        "description": "panfrost: Enable framebuffer fetch",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "317be5a16dff5e3f39ba7426f53f0a9d35aa4442",
+        "description": "panfrost: Extend fetched framebuffer results",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d94584c5a6647b15872244cbd1babb3077318c21",
+        "description": "panfrost: Always use SOFTWARE for pure formats",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b9869e0e5e632893994a2d70cbf352b078c6c642",
+        "description": "panfrost: Generate shader variants on framebuffer bind",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a3952e927ed0df388be125cc8cbb28b14443aa74",
+        "description": "panfrost: Use f2fmp for framebuffer lowering conversions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d16d1367341540074432a6561f383f4392e1523e",
+        "description": "panfrost: Stop keying on rt format when using native loads",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "391ad72812f582578db644ca2a9a0def5845360e",
+        "description": "panfrost: Implement texture_barrier",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2fbe7ca9d9c57d991744273db2604f3f0ccd8d4b",
+        "description": "pan/mdg: Use a 32-bit ld_color_buffer op when needed",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "18059f48f845c3f1358a36528b17bbe90bf140af",
+        "description": "pan/mdg: Set the z/s store intrinsic base correctly",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7781d2c2eadc52c6a21fac5ffc22614b43e61e72",
+        "description": "pan/mdg: Support MRT in output load lowering",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2fa60b70e08fa8aa62bee938bf03018f82710dc2",
+        "description": "pan/mdg: Handle non-blend framebuffer lowering",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ed4d2739fe078b2d7312bb9bcd38c7a2ea2548d0",
+        "description": "pan/mdg: Emit a tilebuffer wait loop when needed",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1e1eee992e8a8f83f89f82438851fc15c1765f80",
+        "description": "pan/mdg: Do the pan_lower_framebuffer pass later",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e603248e075f54ac6bde71486082e1e15aee4ff0",
+        "description": "panfrost: Add a bitset of render targets read by shaders",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "75018f649568fb65865e1b7f43f674c7fbb79077",
+        "description": "panfrost: Add rt formats to shader state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f2eced966028e91213ddd7a4287fa63db3505859",
+        "description": "pan/mdg: Use the writeout tag for tilebuffer wait loops",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "61dfc3c693d27d2cdbd3cdf2ac33181c1af93b92",
+        "description": "pan/mdg: Handle tilebuffer wait loops",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b29027f9dc7fa86793a9b726f42af94badd8d4f2",
+        "description": "panfrost: Clamp pure int pixels",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4141d26ee160f934dd51f2e35a46491f96603902",
+        "description": "panfrost: Fix MALI_READS_TILEBUFFER",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2e3a589e6c82c4baae279af61ec06940a2335c42",
+        "description": "nir: Add a base value to load_raw_output_pan",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "69ef180837481d8c04a53e05572d1db8e759471b",
+        "description": "glx: drop always-true #ifdef",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "39006590517de05709d32378d6024de8041035d0",
+        "description": "egl/wayland: add missing newline between functions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ae5ac4cbb6aee53ff7fa2246eff687b56ff7e2fe",
+        "description": "egl: Build surfaceless platform on Android",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "a38e21d6683aeecb51aea4f933a77c6e7f1a6179"
+    },
+    {
+        "sha": "00ca9b81426e678dd495971dfbd2351b17eb26c1",
+        "description": "radv: advertise VK_EXT_extended_dynamic_state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b2622843003ea0d4769947b02673ead1d5fa695a",
+        "description": "radv: add support for dynamic vertex input binding stride",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9cc99baa4ad64685d8f24683613d836706713366",
+        "description": "radv: add support for dynamic depth/stencil states",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e8a69b782dc3f93664e47704ce19ec08fdccfd0c",
+        "description": "radv: add support for dynamic and scissor count",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d6c1e5051eb93ce05fe44f64c1772159b3a3f318",
+        "description": "radv: add support for dynamic primitive topology",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "52bf1035a6ed00bfee5719798bfbee1f955b8903",
+        "description": "radv: add support for dynamic cull mode and front face",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "77499414d74d631feffe2a228652713198ee3f6a",
+        "description": "radv: declare new extended dynamic states",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2693770806ecc3e797c5dc0e5a377dbb40e9c49b",
+        "description": "radv: add VK_EXT_extended_dynamic_state but leave it disabled",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ac575f4215d7477bbfba13bae161dc9600586f4e",
+        "description": "radv: rework dynamic viewports/scissors support",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7324977e420260cea0627e3381a9f3ae4e62af0f",
+        "description": "radv: remove the secure compile support feature",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "59b4c623c93c506a8ea3de39f7d3b51ccc52bef1",
+        "description": "nouveau: avoid LTO ODR warning (v2)",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ac002b15d3a77b9b16ce068e7ed9c314808eab82",
+        "description": "nvc0: set sampler index mode to independently on gv100 compute",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "55776a0ae0660d730293f11b435dc055753774fd",
+        "description": "radv: return VK_ERROR_DEVICE_LOST if wait-for-idle failed or expired",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "351b5137d71b8dc944bad6dcb83cd93e6d38c44e",
+        "description": "spirv: Allow block-decorated struct types for constants",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "9d0ae777dd68dad682dcc7768726996639ae2684"
+    },
+    {
+        "sha": "81773b4b441fbd8ec284de78e4dfdcecdca112dc",
+        "description": "spirv: Skip phis in unreachable blocks in the second phi pass",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "22fdb2f8551330fea308ce9cfe151ec00201e2b1"
+    },
+    {
+        "sha": "e086f64d3936f496acf41c8b2aa276f09eed6a62",
+        "description": "nvc0: set local mem size for compute on gv100",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "248fbe15675c39de4faa7c083b6f5190cc5560fe",
+        "description": "freedreno: fix layout pitchalign field not being set for imported buffers",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "979e7e3680792dc23d434295edd10b161af8aee3"
+    },
+    {
         "sha": "b8df1c43d24a73740ddd8702d480eded11287b3f",
         "description": "nir: allow nir_lower_clip_halfz to run in geometry shaders",
         "nominated": false,
